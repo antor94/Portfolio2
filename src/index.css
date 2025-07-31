@@ -1,0 +1,16 @@
+
+@import "tailwindcss";
+
+@utility container {  margin-inline: auto; }
+
+@theme{
+
+  /* ----------- color */
+  --color-primary :#E5745D;
+--color-main : #00413D;
+
+
+  /* ------------ font */
+  --font-jost : "Jost", sans-serif;
+  --font-main :  "Vollkorn", serif;
+}
