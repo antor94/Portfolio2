@@ -15,47 +15,36 @@ const Awards = () => {
     <>
     
     
-    <section className='mt-[120px] mb-[140px]'>
+    <section id='awards' className='mt-[120px] mb-[140px]'>
         <div className="container">
-
-           <div className='pt-[140px] border '>
-
+           <div id='awards-row' className='pt-[140px] border border-[#00413D] '>
                 <div className='pl-[216px]'><CommonHead comp={'awards'} /></div>
+
+            {/*---------- heading  */}
             <div className='flex pl-[216px] gap-[126px]  items-center'>
                 <div className=''><CommonHead comh2={'83+ Design Awards'} /></div>
                 <div className='w-[440px] h-[78px]'><p>Solvency based award-winning design director and UI/UX design expert with 10 years of experience in design and management.</p></div>
             </div>
-        
+        {/* ----------- sealection cart div */}
             <div className='pt-[300px] pb-[10px] relative flex'>
-
-
-
-
                 <div className='flex pl-[20px]'>
                     <div><img src={no1} alt="no-1" /></div>
                     <div><img src={no2} alt="no-2" /></div>
                 </div>
-
-
                 <div className=' pl-[20px] pr-[20px]'>
                     <div><img src={no3} alt="no-3" /></div>
                     <div className=' absolute top-[98px] left-[543px]'><img src={no4} alt="no-4" /></div>
                 </div>
-
                 <div className='flex pr-[30px]'>
                     <div><img src={no5} alt="no-5" /></div>
                     <div><img src={no6} alt="no-6" /></div>
                 </div>
-
                 <div className='flex gap-[20px]'>
                     <div><img src={no7} alt="no-7" /></div>
                     <div className=' absolute top-[93px] left-[1220px]'><img src={no8} alt="no-8" /></div>
                     <div><img src={no9} alt="no-9" /></div>
                 </div>
-
-
            </div>
-
             </div>
         </div>
     </section>
