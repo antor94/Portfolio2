@@ -10,12 +10,12 @@ const Navbar = () => {
     <>
     
     
-    <section id='navbar' className='py-[20px] bg-[#e5745d0d] border-b-1'>
+    <section id='navbar' className='py-[20px] bg-[#e5745d0d] border-b-1 border-[#D3DCD4]'>
         <div className="container">
             <div className='flex justify-between items-center'>
 
             <div>
-                <div><img className='w-[122px]' src={logo} alt="nav-logo" /></div>
+                <Link to={'/'}><img className='w-[122px]' src={logo} alt="nav-logo" /></Link>
             </div>
             <div>
                 <ul className='flex gap-[88px] items-center'>
